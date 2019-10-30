@@ -2,7 +2,9 @@
 <div>
     <h2>Home</h2>
     <div v-html="rawHtml"></div>
-    <div v-dompurify-html="rawHtml"></div>
+		<div style="border:2px solid black">
+			<div v-dompurify-html="rawHtml"></div>
+		</div>
 </div>
 </template>
 <script>
